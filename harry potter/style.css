@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+body{
+    background: url(/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+ul{
+    margin-top: 5px;
+    list-style: none;
+    overflow: hidden;
+    background: grey;
+    box-shadow: 0 0 30px green;
+    border-radius: 15px;
+    position: fixed;
+    width: 100%;
+}
+
+.logo{
+    background: rgb(190, 174, 174);
+    float: left;
+    padding: 14px 16px;
+    text-shadow: 0 0 10px black;
+    border-radius: 15px;
+}
+
+.logopic{
+    width: 120px;
+    height: 39px;
+}
+
+li{
+    float: right;
+}
+
+li a{
+    margin: 5px;
+    transition: all 0.8s;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-shadow: 0 0 30px green;
+    color: white;
+    font-size: 20px;
+    background: black;
+    border-radius: 5px;
+}
+
+li a:hover{
+    background: white;
+    color: black;
+    transition: all 0.8s;
+}
+
+
+section{
+    width: 100%;
+    height: 100vh;
+}
+
+#trailers{
+    background-image: linear-gradient(to bottom, green,black);
+}
+
+#about{
+    background: green;
+}
+
+.video{
+    border-radius: 5px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+.container .trailerCard{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    background: coral;
+    border-radius: 5px;
+    box-shadow: 0 0 3px black;
+}
+
+.trailerCard .detail{
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 60vh;
+    width: 90%;
+    background: yellowgreen;
+    border-radius: 20px;
+}
+
+.h1{
+    color: white;
+    display: block;
+    background: lightgreen;
+    border-radius: 5px;
+}
+
+.p{
+    color: white;
+    display: block;
+    background: lightgreen;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px; 
+}
+
+#about{
+    display: grid;
+    place-items: center;
+}
